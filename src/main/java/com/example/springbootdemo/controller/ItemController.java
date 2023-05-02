@@ -1,8 +1,8 @@
-package com.example.spring.bootdemo.controller;
+package com.example.springbootdemo.controller;
 
-import com.example.spring.bootdemo.dto.ItemResponse;
-import com.example.spring.bootdemo.entity.Item;
-import com.example.spring.bootdemo.mapper.ItemMapper;
+import com.example.springbootdemo.dto.ItemResponse;
+import com.example.springbootdemo.entity.Item;
+import com.example.springbootdemo.mapper.ItemMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

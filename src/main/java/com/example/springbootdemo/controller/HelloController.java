@@ -1,6 +1,6 @@
-package com.example.spring.bootdemo.controller;
+package com.example.springbootdemo.controller;
 
-import com.example.spring.bootdemo.dto.Sample;
+import com.example.springbootdemo.dto.Sample;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping
     public Sample hello(){
-        Sample sample =new Sample();
+        Sample sample = new Sample();
         sample.setId(100);
         sample.setName("taro");
 

@@ -1,7 +1,7 @@
-package com.example.spring.bootdemo.mapper;
+package com.example.springbootdemo.mapper;
 
-import com.example.spring.bootdemo.entity.Item;
 import org.apache.ibatis.annotations.Mapper;
+import com.example.springbootdemo.entity.Item;
 
 @Mapper
 public interface ItemMapper {
