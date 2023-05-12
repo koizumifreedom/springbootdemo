@@ -26,6 +26,7 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 }
 
 tasks.named('test') {
@@ -33,7 +34,7 @@ tasks.named('test') {
 
 	sourceSets {
 		main {
-			resources.srcDirs("src/main/java", "src/main/resources")
+			resources.srcDirs("src/main/java", "src/main/resources/test")
 		}
 	}
 }
